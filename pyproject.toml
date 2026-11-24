@@ -1,0 +1,12 @@
+[project]
+name = "django-starter"
+version = "0.1.0"
+description = "A Django app with Postgres, Gunicorn and WhiteNoise, ready to deploy on Containify"
+requires-python = ">=3.14"
+dependencies = [
+    "django",
+    "gunicorn",
+    "whitenoise",
+    "dj-database-url",
+    "psycopg[binary]",
+]
